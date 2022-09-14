@@ -14,7 +14,7 @@ gzip -d *.gz
 
 If you have Synopsys StarRC, you can also use the Nxtgrd file to do parasitic extraction with the LEF files and DEF file after P&R.
 
-If you use the CNFET7 cell library in any published work, we will feel thanksful for a citation of this paper:
+If you use the CNFET7 cell library in any published work, we will feel thankful for a citation of this paper:
 
 C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, The 28th Asia and South Pacific Design Automation Conference (ASP-DAC) 
 
