@@ -8,6 +8,10 @@ Liberyty file is used in Cadence Genus to do synthesis and if you want to use De
 LEF files and qrctechfile are used in Cadence Innovus and Quantus for P&R and Parasitic extraction.
 Place and route are not supported in Synopsys tools, only in Cadence Innovus.
 
+The qrctechfile is compressed because it is too large, so please use the following command to decompress it before using:
+
+gzip -d *.gz
+
 If you have Synopsys StarRC, you can also use the Nxtgrd file to do parasitic extraction with the LEF files and DEF file after P&R.
 
 If you use the CNFET7 cell library in any published work, we will feel thanksful for a citation of this paper:
