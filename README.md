@@ -22,7 +22,7 @@ If you use our cell library in any published work, we would appreciate a citatio
 - C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC) (to appear)
 
 ## License
-Our cell library has an MIT license.
+Our cell library has a BSD 3-Clause license.
 
 ## Contact
 If you have any questions or problems, please contact cnfet@hpc.is.uec.ac.jp.
