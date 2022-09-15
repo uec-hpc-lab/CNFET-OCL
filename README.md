@@ -1,8 +1,7 @@
 # CNFET-OCL
-Open Source Cell Library for Predictive CNFET Technology
+The CNFET-OCL project is to develop open source cell libraries for predictive sub-10nm carbon nanotube field effect transistor (CNFET) technology. CNFET7, the cell library for the 7nm CNFET technology, is now open and helps to design various combinational and sequential circuits by combining with EDA tools. CNFET7 is built with the VS-CNFET model developed by the Nanoelectronics Lab in Stanford University and well reproduces the cell library used in the state-of-the-art research work that designs the OpenSPARC T2 processor with CNFETs. For more details on CNFET7, see our ASP-DAC'23 paper.
 
-CNFET7 is an open-source 7-nm CNFET (Carbon nanotube field-effect transistor) Cell library based on the VS-CNFET model of Stanford University and supports Cadence APR flow.
-
+## Usage
 Liberyty file is used in Cadence Genus to do synthesis and if you want to use Design Compiler to do some synthesis jobs, please use Library compiler to transfer .lib to .db. 
 
 LEF files and qrctechfile are used in Cadence Innovus and Quantus for P&R and Parasitic extraction.
@@ -14,13 +13,8 @@ gzip -d *.gz
 
 If you have Synopsys StarRC, you can also use the Nxtgrd file to do parasitic extraction with the LEF files and DEF file after P&R.
 
-If you use the CNFET7 cell library in any published work, we will feel thankful for a citation of this paper:
+If you use our cell library in any published work, we would appreciate a citation for the following paper.
 
-C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, The 28th Asia and South Pacific Design Automation Conference (ASP-DAC) 
+- C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC) (to appear)
 
-
-
-
-
-
-
+If you have any questions or problems, please contact cnfet@hpc.is.uec.ac.jp.
