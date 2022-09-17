@@ -5,12 +5,12 @@ The CNFET-OCL project is to develop open source cell libraries for predictive su
 CNFET7 includes the following files.
 - Two Liberty files (CCS and NLDM)
 - Two LEF files (Cell and Tech)
-- A QRC file
+- Two QRC file
 - A Nxtgrd file
 
 The Liberty files can be read from Cadence Genus directly. If you would like to use Design Compiler for logic synthesis, please use Library Compiler to transfer a .lib file to a .db file. 
 
-The LEF and QRC files are used in Cadence Innovus and Quantus for P&R and parasitic extraction, respectively. Our cell library does not support P&R with Synopsys tools at present. Because the QRC file is compressed with gzip, the decompression is needed before use. For the decompression, you move to the QRC dierectory and then type the following command.
+The LEF and QRC files are used in Cadence Innovus and Quantus for P&R and parasitic extraction, respectively. Our cell library does not support P&R with Synopsys tools at present. QRC file has two versions, one is used with normal dieletric constant, the other one is used with a low K(K=2.5) assumption. Because the QRC file is compressed with gzip, the decompression is needed before use. For the decompression, you move to the QRC dierectory and then type the following command.
 
 gzip -d *.gz
 
