@@ -1,8 +1,8 @@
 # CNFET-OCL
-The CNFET-OCL project is to develop open source cell libraries for predictive sub-10nm carbon nanotube field effect transistor (CNFET) technology. CNFET7, the cell library for the 7nm CNFET technology, is now open and helps to design various combinational and sequential circuits by combining with EDA tools. CNFET7 is built with the VS-CNFET model developed by the Nanoelectronics Lab in Stanford University and well reproduces the cell library used in the state-of-the-art research work that designs the OpenSPARC T2 processor with CNFETs. For more details on CNFET7, see our ASP-DAC'23 paper.
+The CNFET-OCL project is to develop open source cell libraries for predictive sub-10nm carbon nanotube field effect transistor (CNFET) technology. CNFET7 and CNFET5, the cell libraries for the 7nm and 5nm CNFET technologies, respectively, are now open and help to design various combinational and sequential circuits by combining with EDA tools. Both libraries are built with the VS-CNFET model developed by the Nanoelectronics Lab in Stanford University and well reproduce the cell libraries used in the state-of-the-art research work that designs the OpenSPARC T2 processor with CNFETs. For more details on CNFET7, see our ASP-DAC'23 paper.
 
 ## Descriptions
-CNFET7 includes the following files.
+CNFET7 and CNFET5 include the following files.
 - Two Liberty files (CCS and NLDM)
 - Two LEF files (Cell and Tech)
 - Two QRC files
