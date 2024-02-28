@@ -8,7 +8,7 @@ CNFET7 and CNFET5 include the following files.
 - Two QRC files
 - A Nxtgrd file
 
-The Liberty files can be read from Cadence Genus directly. If you would like to use Design Compiler for logic synthesis, please use Library Compiler to transfer a .lib file to a .db file. 
+The Liberty files can be read from Cadence Genus directly. If you would like to use Design Compiler for logic synthesis, please use Library Compiler to convert a .lib file to a .db file. 
 
 The LEF and QRC files are used in Cadence Innovus and Quantus for P&R and parasitic extraction, respectively. Our cell library does not support P&R with Synopsys tools at present. QRC file has two versions, one is generated with regular dieletric constant, the other one is generated with a low K(K=2.5) assumption. Because the QRC file is compressed with gzip, the decompression is needed before use. For the decompression, you move to the QRC dierectory and then type the following command.
 
