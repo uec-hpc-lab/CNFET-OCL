@@ -19,7 +19,7 @@ If you have Synopsys StarRC, you can also use the Nxtgrd file for parasitic extr
 ## Related publication
 If you use our cell library in any published work, we would appreciate a citation for the following paper.
 
-- [C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC), 2024](https://ieeexplore.ieee.org/document/10044778).
+- [C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET7: An Open Source Cell Library for 7-nm CNFET Technology, In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC), 2023](https://ieeexplore.ieee.org/document/10044778).
 
 ## License
 Our cell library has a BSD 3-Clause license.
