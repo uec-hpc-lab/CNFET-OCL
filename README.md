@@ -17,9 +17,9 @@ gzip -d *.gz
 If you have Synopsys StarRC, you can also use the Nxtgrd file for parasitic extraction with LEF and DEF files after P&R. The Nxtgrd file was generated with regular dieletric constant.
 
 ## Related publication
-If you use our cell library in any published work, we would appreciate a citation for the following paper.
+If you use our cell library in any published work, we would appreciate a citation for the following papers.
 
-For 5-nm (and 7-nm):
+For 5-nm and 7-nm:
 - [C. Shi, S. Miwa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CNFET-OCL: Open-source Cell Libraries for Advanced CNFET Technologies, IEEE Access, Vol.12, pp. 165335-165347 (2024)](https://ieeexplore.ieee.org/document/10746448).
 
 For 7-nm only:
