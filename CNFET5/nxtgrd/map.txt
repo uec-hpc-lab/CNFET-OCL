@@ -1,0 +1,27 @@
+conducting_layers       
+ACT             diff
+POLY            POLY       
+M1              M1
+MINT1           MINT1           
+MINT2           MINT2 
+MINT3           MINT3
+MINT4           MINT4
+MINT5           MINT5
+MINT6           MINT6
+MINT7           MINT7
+MINT8           MINT8
+
+via_layers               
+V0              V0
+V1              V1      
+VINT1           VINT1      
+VINT2           VINT2
+VINT3           VINT3
+VINT4           VINT4
+VINT5           VINT5
+VINT6           VINT6
+VINT7           VINT7         
+
+marker_layers
+
+remove_layers
